@@ -1,20 +1,32 @@
 {
   "name": "nexora-theme",
   "displayName": "Nexora Theme",
-  "description": "...",
-  "version": "0.0.1",
+  "description": "A minimal, high-precision dark theme focused on clarity and reduced cognitive load.",
+  "version": "0.1.0",
+  "publisher": "nexora",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saarmyx/NexoraTheme"
+  },
   "engines": {
-    "vscode": "^1.118.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "dark theme",
+    "minimal",
+    "clean",
+    "developer",
+    "nexora"
   ],
   "contributes": {
     "themes": [
       {
         "label": "Nexora Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nexora Theme-color-theme.json"
+        "path": "./themes/Nexora-Theme-color-theme.json"
       }
     ]
   }

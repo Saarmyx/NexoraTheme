@@ -1,0 +1,227 @@
+{
+  "name": "Nexora Red",
+  "type": "dark",
+
+  // ========================
+  // 🎨 UI COLORS (INTERFAZ)
+  // ========================
+
+  "colors": {
+    // === BASE ===
+    "editor.background": "#0A0B0D",
+    "editor.foreground": "#E6E9EF",
+    "editor.lineHighlightBackground": "#121417",
+
+    // === CURSOR / SELECTION ===
+    "editorCursor.foreground": "#E05A5A",
+    "editor.selectionBackground": "#1A1D22",
+
+    // === INDENT ===
+    "editorIndentGuide.background1": "#1E2228",
+    "editorIndentGuide.activeBackground1": "#2A2F38",
+
+    // === SIDEBAR ===
+    "sideBar.background": "#0A0B0D",
+    "sideBar.foreground": "#8B92A1",
+    "sideBar.border": "#1E2228",
+
+    // === ACTIVITY BAR (IZQUIERDA / DERECHA) ===
+    "activityBar.background": "#0A0B0D",
+    "activityBar.foreground": "#E05A5A",
+    "activityBar.border": "#1E2228",
+
+    // === LISTAS ===
+    "list.activeSelectionBackground": "#121417",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.hoverBackground": "#121417",
+
+    // === STATUS BAR (ABAJO) ===
+    "statusBar.background": "#E05A5A",
+    "statusBar.foreground": "#0A0B0D",
+    "statusBar.noFolderBackground": "#E05A5A",
+    "statusBar.debuggingBackground": "#C94A4A",
+    "statusBar.border": "#1E2228",
+
+    "statusBarItem.hoverBackground": "#C94A4A",
+    "statusBarItem.activeBackground": "#B84343",
+
+    // === TOP BAR / TITLE BAR (LO QUE QUERÍAS) ===
+    "titleBar.activeBackground": "#0A0B0D",
+    "titleBar.activeForeground": "#E6E9EF",
+    "titleBar.inactiveBackground": "#0A0B0D",
+    "titleBar.inactiveForeground": "#E6E9EF",
+    "titleBar.border": "#1E2228",
+
+    // === TABS ===
+    "tab.activeBackground": "#0A0B0D",
+    "tab.inactiveBackground": "#0A0B0D",
+    "tab.activeForeground": "#E6E9EF",
+    "tab.inactiveForeground": "#6B7280",
+    "tab.border": "#1E2228",
+
+    // === PANEL ===
+    "panel.background": "#0A0B0D",
+    "panel.border": "#1E2228",
+
+    // === SCROLL ===
+    "scrollbarSlider.background": "#1E2228",
+    "scrollbarSlider.hoverBackground": "#2A2F38",
+
+    // === FEEDBACK ===
+    "editorError.foreground": "#FF5C5C",
+    "editorWarning.foreground": "#F0B35A",
+    "editorInfo.foreground": "#3ECF8E"
+  },
+
+  // ========================
+  // 🧠 TOKEN COLORS (CÓDIGO)
+  // ========================
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#8B92A1",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "Keywords",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#E05A5A"
+      }
+    },
+
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function", "support.function", "meta.function-call"],
+      "settings": {
+        "foreground": "#FF6B6B"
+      }
+    },
+
+    {
+      "name": "Variables",
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#E6E9EF"
+      }
+    },
+
+    {
+      "name": "Parameters",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#bbb"
+      }
+    },
+
+    {
+      "name": "Strings",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#bbb"
+      }
+    },
+
+    {
+      "name": "Numbers",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#3ECF8E"
+      }
+    },
+
+    {
+      "name": "Booleans / null",
+      "scope": ["constant.language"],
+      "settings": {
+        "foreground": "#F0B35A"
+      }
+    },
+
+    {
+      "name": "Classes / Types",
+      "scope": ["entity.name.type", "support.class", "support.type"],
+      "settings": {
+        "foreground": "#E8A55A"
+      }
+    },
+
+    {
+      "name": "Operators",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#8B92A1"
+      }
+    },
+
+    {
+      "name": "Punctuation",
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#6B7280"
+      }
+    },
+
+    {
+      "name": "Attributes (HTML/JSX)",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#E05A5A"
+      }
+    },
+
+    {
+      "name": "HTML Tags",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#FF6B6B"
+      }
+    },
+
+    {
+      "name": "Errors",
+      "scope": ["invalid"],
+      "settings": {
+        "foreground": "#FF5C5C"
+      }
+    }
+  ],
+
+  // ========================
+  // ⚙️ SEMANTIC TOKENS (NIVEL PRO)
+  // ========================
+  "semanticHighlighting": true,
+
+  "semanticTokenColors": {
+    // Variables normales
+    "variable": "#c0c063",
+
+    // Variables readonly (const)
+    "variable.readonly": "#F0B35A",
+
+    // Funciones
+    "function": "#FF6B6B",
+
+    // Métodos
+    "method": "#FF6B6B",
+
+    // Clases
+    "class": "#E8A55A",
+
+    // Interfaces
+    "interface": "#E8A55A",
+
+    // Parámetros
+    "parameter": "#BFC7D5",
+
+    // Propiedades
+    "property": "#c0c063",
+
+    // Keywords
+    "keyword": "#E05A5A"
+  }
+}
