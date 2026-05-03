@@ -1,99 +1,164 @@
 # Nexora Theme
 
-Minimalismo agresivo. Precisión visual. Cero distracciones.
+Minimal. Intentional. System-driven.
 
-**Nexora Theme** no es un tema decorativo. Es una herramienta diseñada para mantener el foco en el código, usando una paleta controlada basada en negro profundo y rojo suave.
-
----
-
-## Filosofía
-
-- El color guía, no distrae
-- El contraste es funcional, no extremo
-- Menos elementos visibles = más claridad mental
-- El código es protagonista, no la interfaz
+<!-- [![Version](https://vsmarketplacebadges.dev/version/Nexora.nexora-theme.png)](https://marketplace.visualstudio.com/items?itemName=Nexora.nexora-theme)
+[![Installs](https://vsmarketplacebadges.dev/installs/Nexora.nexora-theme.png)](https://marketplace.visualstudio.com/items?itemName=Nexora.nexora-theme)
+[![Rating](https://vsmarketplacebadges.dev/rating/Nexora.nexora-theme.png)](https://marketplace.visualstudio.com/items?itemName=Nexora.nexora-theme) -->
 
 ---
 
-## Características
+## Preview
 
-- Base oscura optimizada para largas sesiones
-- Sistema de color coherente (sin saturación innecesaria)
-- Resaltado semántico limpio y consistente
-- Rojo como acento estratégico, no dominante
-- UI uniforme sin ruido visual
+![Nexora Theme](./images/preview.png)
 
 ---
 
-## Paleta
+## 🧠 Philosophy
 
-| Elemento   | Color   |
-| ---------- | ------- |
-| Fondo      | #0A0B0D |
-| Texto      | #E6E9EF |
-| Primario   | #E05A5A |
-| Acento     | #FF6B6B |
-| Secundario | #8B92A1 |
+Nexora is not just a theme.
+
+It is part of a system designed to:
+
+- Reduce visual noise
+- Improve focus while coding
+- Maintain consistency across tools
+- Support structured thinking through design
+
+Every color and contrast decision exists with intention.
 
 ---
 
-## Instalación
+## 🎨 Design Principles
 
-### Desde `.vsix`
+- **Dark-first** → deep background for focus
+- **Soft red accent** → used for structure, not decoration
+- **Low saturation palette** → reduces eye fatigue
+- **Clear hierarchy** → faster code scanning
 
-```bash
-code --install-extension nexora-theme-0.0.1.vsix
+---
+
+## ⚙️ Features
+
+- Carefully balanced contrast
+
+- Minimal and distraction-free UI
+
+- Semantic highlighting optimized for:
+  - JavaScript / TypeScript
+  - React / JSX
+  - Python
+  - HTML / CSS
+  - Markdown
+
+- UI elements aligned with the same system:
+  - Buttons
+  - Inputs
+  - Panels
+  - Status bar
+
+---
+
+## 🧩 Focus Areas
+
+### JavaScript / React
+
+![JavaScript](./images/js.png)
+
+### Python
+
+![Python](./images/python.png)
+
+### Markdown
+
+![Markdown](./images/md.png)
+
+---
+
+## 🚀 Installation
+
+Search for **Nexora Theme** in VS Code
+or install directly:
+
+https://marketplace.visualstudio.com/items?itemName=Nexora.nexora-theme
+
+---
+
+## 🧭 Usage
+
+1. Open Command Palette
+2. Select `Preferences: Color Theme`
+3. Choose **Nexora Theme**
+
+---
+
+## 🛠️ Recommended Setup
+
+For a better experience:
+
+```json
+"editor.fontFamily": "JetBrains Mono",
+"editor.fontLigatures": true,
+"editor.lineHeight": 24,
+"editor.fontSize": 14
 ```
 
-### Activar
-
-1. Abre Command Palette
-2. `Preferences: Color Theme`
-3. Selecciona **Nexora Theme**
+JetBrains Mono:
+https://www.jetbrains.com/lp/mono
 
 ---
 
-## Recomendado
+## ⚙️ Customization
 
-Para una experiencia completa:
+You can extend Nexora using VS Code settings:
 
-- Desactivar minimap
-- Ocultar scrollbars
-- Usar fuentes monoespaciadas limpias
-- Reducir ruido visual del editor
-
----
-
-## Estructura
-
-```
-themes/
- └── nexora-color-theme.json
+```json
+"editor.tokenColorCustomizations": {
+  "[Nexora Red]": {
+    "textMateRules": []
+  }
+}
 ```
 
----
+For UI tweaks:
 
-## Roadmap
-
-- Variantes: Soft / High Contrast
-- Ajustes por lenguaje
-- Icon theme alineado
-- Ecosistema Nexora
-
----
-
-## Licencia
-
-Este proyecto usa una licencia personalizada. Consulta el archivo `LICENSE`.
+```json
+"workbench.colorCustomizations": {
+  "focusBorder": "#E05A5A"
+}
+```
 
 ---
 
-## Autor
+## 🧱 Part of Nexora
 
-## [Santiago Sarmiento](https://github.com/Saarmyx) creador de Nexora
+Nexora Theme is the first piece of a broader ecosystem.
 
-## Nota final
+Future direction includes:
 
-Si el tema llama más la atención que el código, está mal diseñado.
+- UI systems
+- Developer tools
+- Structured product environments
 
-Nexora existe para evitar eso.
+---
+
+## 📌 Notes
+
+This is an evolving system.
+
+Expect continuous refinement — not random changes.
+
+---
+
+## ⚡ Feedback
+
+If something feels off, it probably is.
+
+Open an issue or share your thoughts.
+
+---
+
+## 🧑‍💻 Author
+
+- [Santiago Sarmiento](https://instagram.com/saarmyx)
+- Founder of Nexora

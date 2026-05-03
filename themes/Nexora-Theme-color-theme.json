@@ -2,40 +2,58 @@
   "name": "Nexora Red",
   "type": "dark",
 
-  // ========================
-  // 🎨 UI COLORS (INTERFAZ)
-  // ========================
-
   "colors": {
-    // === BASE ===
+    // ========================
+    // 🧱 BASE EDITOR
+    // ========================
     "editor.background": "#0A0B0D",
     "editor.foreground": "#E6E9EF",
     "editor.lineHighlightBackground": "#121417",
 
-    // === CURSOR / SELECTION ===
+    // ========================
+    // 🎯 CURSOR & SELECTION
+    // ========================
     "editorCursor.foreground": "#E05A5A",
     "editor.selectionBackground": "#1A1D22",
 
-    // === INDENT ===
+    // ========================
+    // 📏 INDENT GUIDES
+    // ========================
     "editorIndentGuide.background1": "#1E2228",
     "editorIndentGuide.activeBackground1": "#2A2F38",
 
-    // === SIDEBAR ===
+    // ========================
+    // 📁 SIDEBAR
+    // ========================
     "sideBar.background": "#0A0B0D",
     "sideBar.foreground": "#8B92A1",
     "sideBar.border": "#1E2228",
 
-    // === ACTIVITY BAR (IZQUIERDA / DERECHA) ===
+    "tree.indentGuidesStroke": "#1E2228",
+    // ========================
+    // 🧭 ACTIVITY BAR
+    // ========================
     "activityBar.background": "#0A0B0D",
     "activityBar.foreground": "#E05A5A",
     "activityBar.border": "#1E2228",
 
-    // === LISTAS ===
+    // ========================
+    // 📋 LISTS & SELECTIONS
+    // ========================
     "list.activeSelectionBackground": "#121417",
     "list.activeSelectionForeground": "#FFFFFF",
-    "list.hoverBackground": "#121417",
+    "list.inactiveSelectionBackground": "#0A0B0D",
+    "list.hoverBackground": "#0A0B0D",
+    "list.inactiveSelectionForeground": "#8B92A1",
+    // "list.hoverBackground": "#121417",
+    "list.focusOutline": "#E05A5A",
 
-    // === STATUS BAR (ABAJO) ===
+    "list.focusBackground": "#121417",
+    "list.focusForeground": "#FFFFFF",
+
+    // ========================
+    // 🔴 STATUS BAR (BOTTOM)
+    // ========================
     "statusBar.background": "#E05A5A",
     "statusBar.foreground": "#0A0B0D",
     "statusBar.noFolderBackground": "#E05A5A",
@@ -45,66 +63,154 @@
     "statusBarItem.hoverBackground": "#C94A4A",
     "statusBarItem.activeBackground": "#B84343",
 
-    // === TOP BAR / TITLE BAR (LO QUE QUERÍAS) ===
+    // ========================
+    // 🧠 TITLE BAR (TOP)
+    // ========================
     "titleBar.activeBackground": "#0A0B0D",
     "titleBar.activeForeground": "#E6E9EF",
     "titleBar.inactiveBackground": "#0A0B0D",
     "titleBar.inactiveForeground": "#E6E9EF",
     "titleBar.border": "#1E2228",
 
-    // === TABS ===
+    // ========================
+    // 📑 TABS
+    // ========================
     "tab.activeBackground": "#0A0B0D",
     "tab.inactiveBackground": "#0A0B0D",
     "tab.activeForeground": "#E6E9EF",
     "tab.inactiveForeground": "#6B7280",
     "tab.border": "#1E2228",
 
-    // === PANEL ===
+    // ========================
+    // 📦 PANELS
+    // ========================
     "panel.background": "#0A0B0D",
     "panel.border": "#1E2228",
 
-    // === SCROLL ===
+    // ========================
+    // 📜 SCROLLBAR
+    // ========================
     "scrollbarSlider.background": "#1E2228",
     "scrollbarSlider.hoverBackground": "#2A2F38",
 
-    // === FEEDBACK ===
+    // ========================
+    // ⚠️ FEEDBACK (ERRORS / WARNINGS)
+    // ========================
     "editorError.foreground": "#FF5C5C",
     "editorWarning.foreground": "#F0B35A",
-    "editorInfo.foreground": "#3ECF8E"
+    "editorInfo.foreground": "#3ECF8E",
+
+    // ========================
+    // 🔘 BUTTONS
+    // ========================
+    "button.background": "#E05A5A",
+    "button.foreground": "#0A0B0D",
+    "button.hoverBackground": "#C94A4A",
+
+    "button.secondaryBackground": "#1E2228",
+    "button.secondaryForeground": "#E6E9EF",
+    "button.secondaryHoverBackground": "#2A2F38",
+
+    "button.border": "#1E2228",
+
+    // ========================
+    // ⌨️ INPUTS & DROPDOWNS
+    // ========================
+    "input.background": "#121417",
+    "input.foreground": "#E6E9EF",
+    "input.border": "#1E2228",
+    "input.placeholderForeground": "#6B7280",
+
+    "dropdown.background": "#121417",
+    "dropdown.foreground": "#E6E9EF",
+    "dropdown.border": "#1E2228",
+
+    // ========================
+    // 🎯 FOCUS & INTERACTION
+    // ========================
+    "focusBorder": "#E05A5A",
+
+    // ========================
+    // ☑️ CHECKBOX
+    // ========================
+    "checkbox.background": "#121417",
+    "checkbox.border": "#1E2228",
+    "checkbox.foreground": "#E05A5A",
+
+    // ========================
+    // ⚡ QUICK INPUT (CMD PALETTE)
+    // ========================
+    "quickInput.background": "#0A0B0D",
+    "quickInput.foreground": "#E6E9EF",
+
+    "quickInputList.focusBackground": "#121417",
+    "quickInputList.focusForeground": "#FFFFFF",
+
+    // ========================
+    // 🔗 LINKS & BADGES
+    // ========================
+    "textLink.foreground": "#FF6B6B",
+    "textLink.activeForeground": "#E05A5A",
+
+    "badge.background": "#E05A5A",
+    "badge.foreground": "#0A0B0D",
+
+    // ========================
+    // 💬 HOVER
+    // ========================
+    "editorHoverWidget.background": "#121417",
+    "editorHoverWidget.border": "#1E2228"
   },
 
   // ========================
   // 🧠 TOKEN COLORS (CÓDIGO)
   // ========================
   "tokenColors": [
+    // ========================
+    // 💬 COMMENTS
+    // ========================
     {
       "name": "Comments",
-      "scope": ["comment"],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#8B92A1",
+        "foreground": "#6B7280",
         "fontStyle": "italic"
       }
     },
 
+    // ========================
+    // 🔑 KEYWORDS
+    // ========================
     {
       "name": "Keywords",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": ["keyword", "storage", "storage.type", "storage.modifier"],
       "settings": {
         "foreground": "#E05A5A"
       }
     },
 
+    // ========================
+    // ⚙️ FUNCTIONS
+    // ========================
     {
       "name": "Functions",
-      "scope": ["entity.name.function", "support.function", "meta.function-call"],
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call",
+        "variable.function"
+      ],
       "settings": {
         "foreground": "#FF6B6B"
       }
     },
 
+    // ========================
+    // 🧩 VARIABLES
+    // ========================
     {
       "name": "Variables",
-      "scope": ["variable"],
+      "scope": ["variable", "variable.other"],
       "settings": {
         "foreground": "#E6E9EF"
       }
@@ -114,50 +220,76 @@
       "name": "Parameters",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#bbb"
+        "foreground": "#E6E9EF"
       }
     },
 
-    {
-      "name": "Strings",
-      "scope": ["string"],
-      "settings": {
-        "foreground": "#bbb"
-      }
-    },
-
+    // ========================
+    // 🔢 NUMBERS / CONSTANTS
+    // ========================
     {
       "name": "Numbers",
       "scope": ["constant.numeric"],
-      "settings": {
-        "foreground": "#3ECF8E"
-      }
-    },
-
-    {
-      "name": "Booleans / null",
-      "scope": ["constant.language"],
       "settings": {
         "foreground": "#F0B35A"
       }
     },
 
     {
-      "name": "Classes / Types",
-      "scope": ["entity.name.type", "support.class", "support.type"],
+      "name": "Constants",
+      "scope": ["constant.language", "constant.character", "constant.other"],
+      "settings": {
+        "foreground": "#F0B35A"
+      }
+    },
+
+    // ========================
+    // 🧵 STRINGS
+    // ========================
+    {
+      "name": "Strings",
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#A3BE8C"
+      }
+    },
+
+    // ========================
+    // 🧱 CLASSES / TYPES
+    // ========================
+    {
+      "name": "Classes",
+      "scope": ["entity.name.type", "entity.name.class", "support.class", "support.type"],
       "settings": {
         "foreground": "#E8A55A"
       }
     },
 
+    // ========================
+    // 🔗 PROPERTIES
+    // ========================
+    {
+      "name": "Properties",
+      "scope": ["variable.other.property", "meta.object-literal.key"],
+      "settings": {
+        "foreground": "#D1D5DB"
+      }
+    },
+
+    // ========================
+    // 🔣 OPERATORS
+    // ========================
     {
       "name": "Operators",
-      "scope": ["keyword.operator"],
+      "scope": ["keyword.operator", "keyword.control"],
       "settings": {
         "foreground": "#8B92A1"
       }
     },
 
+    // ========================
+    // 🧷 PUNCTUATION
+    // ========================
     {
       "name": "Punctuation",
       "scope": ["punctuation"],
@@ -166,62 +298,166 @@
       }
     },
 
+    // ========================
+    // 🟨 JAVASCRIPT / TYPESCRIPT
+    // ========================
     {
-      "name": "Attributes (HTML/JSX)",
-      "scope": ["entity.other.attribute-name"],
-      "settings": {
-        "foreground": "#E05A5A"
-      }
-    },
-
-    {
-      "name": "HTML Tags",
-      "scope": ["entity.name.tag"],
+      "name": "JS/TS Functions",
+      "scope": [
+        "source.js entity.name.function",
+        "source.ts entity.name.function",
+        "meta.function-call.js",
+        "meta.function-call.ts"
+      ],
       "settings": {
         "foreground": "#FF6B6B"
       }
     },
-
     {
-      "name": "Errors",
-      "scope": ["invalid"],
+      "name": "JS/TS Variables",
+      "scope": ["source.js variable", "source.ts variable"],
       "settings": {
-        "foreground": "#FF5C5C"
+        "foreground": "#E6E9EF"
+      }
+    },
+    {
+      "name": "JS/TS Keywords",
+      "scope": ["source.js keyword", "source.ts keyword"],
+      "settings": {
+        "foreground": "#E05A5A"
+      }
+    },
+    {
+      "name": "JS/TS this / special",
+      "scope": ["variable.language.this.js", "variable.language.this.ts"],
+      "settings": {
+        "foreground": "#F0B35A"
+      }
+    },
+
+    // ========================
+    // ⚛️ REACT / JSX / TSX
+    // ========================
+    {
+      "name": "React Components",
+      "scope": ["source.jsx entity.name.tag", "source.tsx entity.name.tag"],
+      "settings": {
+        "foreground": "#E8A55A"
+      }
+    },
+    {
+      "name": "JSX Props",
+      "scope": ["source.jsx entity.other.attribute-name", "source.tsx entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#E05A5A"
+      }
+    },
+    {
+      "name": "JSX Strings",
+      "scope": ["source.jsx string", "source.tsx string"],
+      "settings": {
+        "foreground": "#A3BE8C"
+      }
+    },
+
+    // ========================
+    // 🐍 PYTHON
+    // ========================
+    {
+      "name": "Python Functions",
+      "scope": ["source.python entity.name.function"],
+      "settings": {
+        "foreground": "#FF6B6B"
+      }
+    },
+    {
+      "name": "Python Classes",
+      "scope": ["source.python entity.name.type.class"],
+      "settings": {
+        "foreground": "#E8A55A"
+      }
+    },
+    {
+      "name": "Python Keywords",
+      "scope": ["source.python keyword"],
+      "settings": {
+        "foreground": "#E05A5A"
+      }
+    },
+    {
+      "name": "Python Builtins",
+      "scope": ["support.function.builtin.python"],
+      "settings": {
+        "foreground": "#F0B35A"
+      }
+    },
+
+    // ========================
+    // 🌐 HTML
+    // ========================
+    {
+      "name": "HTML Tags",
+      "scope": ["text.html.basic entity.name.tag"],
+      "settings": {
+        "foreground": "#FF6B6B"
+      }
+    },
+    {
+      "name": "HTML Attributes",
+      "scope": ["text.html.basic entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#E05A5A"
+      }
+    },
+    {
+      "name": "HTML Strings",
+      "scope": ["text.html.basic string"],
+      "settings": {
+        "foreground": "#A3BE8C"
+      }
+    },
+
+    // ========================
+    // 📝 MARKDOWN
+    // ========================
+    {
+      "name": "Markdown Headings",
+      "scope": ["markup.heading", "markup.heading.markdown"],
+      "settings": {
+        "foreground": "#FF6B6B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Bold",
+      "scope": ["markup.bold"],
+      "settings": {
+        "foreground": "#E05A5A",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Italic",
+      "scope": ["markup.italic"],
+      "settings": {
+        "foreground": "#E8A55A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown Code",
+      "scope": ["markup.inline.raw", "markup.fenced_code.block"],
+      "settings": {
+        "foreground": "#A3BE8C"
+      }
+    },
+    {
+      "name": "Markdown Links",
+      "scope": ["markup.underline.link"],
+      "settings": {
+        "foreground": "#FF6B6B",
+        "fontStyle": "underline"
       }
     }
-  ],
-
-  // ========================
-  // ⚙️ SEMANTIC TOKENS (NIVEL PRO)
-  // ========================
-  "semanticHighlighting": true,
-
-  "semanticTokenColors": {
-    // Variables normales
-    "variable": "#c0c063",
-
-    // Variables readonly (const)
-    "variable.readonly": "#F0B35A",
-
-    // Funciones
-    "function": "#FF6B6B",
-
-    // Métodos
-    "method": "#FF6B6B",
-
-    // Clases
-    "class": "#E8A55A",
-
-    // Interfaces
-    "interface": "#E8A55A",
-
-    // Parámetros
-    "parameter": "#BFC7D5",
-
-    // Propiedades
-    "property": "#c0c063",
-
-    // Keywords
-    "keyword": "#E05A5A"
-  }
+  ]
 }
