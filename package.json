@@ -2,7 +2,7 @@
   "name": "nexora-theme",
   "displayName": "Nexora Theme",
   "description": "A minimal, high-precision dark theme focused on clarity and reduced cognitive load.",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "publisher": "nexora",
   "icon": "images/IsotipoAltNexora.png",
   "repository": {
