@@ -29,11 +29,7 @@ export const javascriptTokens = (): TokenRule[] => [
   // ========================
   {
     name: 'JS Function Names',
-    scope: [
-      'entity.name.function.js',
-      'support.function.js',
-      'meta.function-call.generic.js',
-    ],
+    scope: ['entity.name.function.js', 'support.function.js', 'meta.function-call.generic.js'],
     settings: {
       foreground: jsSecondary,
     },
