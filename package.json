@@ -1,33 +1,54 @@
 {
   "name": "nexora-theme",
   "displayName": "Nexora Theme",
-  "description": "A minimal, high-precision dark theme focused on clarity and reduced cognitive load.",
-  "version": "0.2.6",
-  "publisher": "nexora",
-  "icon": "images/IsotipoAltNexora.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Saarmyx/NexoraTheme"
-  },
+  "description": "Modern multi-accent VS Code theme.",
+  "version": "1.0.0",
+  "publisher": "saarmyx",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Themes"
   ],
-  "keywords": [
-    "dark theme",
-    "minimal",
-    "clean",
-    "developer",
-    "nexora"
-  ],
+  "scripts": {
+    "build": "ts-node src/build.ts",
+    "dev": "ts-node src/build.ts --watch",
+    "validate": "ts-node src/utils/validator.ts",
+    "add-theme": "ts-node scripts/add-theme.ts",
+    "clean": "rm -rf dist dist-ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Nexora Theme",
+        "label": "Nexora Red",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nexora-Theme-color-theme.json"
+        "path": "./dist/nexora-red-color-theme.json"
+      },
+      {
+        "label": "Nexora Blue",
+        "uiTheme": "vs-dark",
+        "path": "./dist/nexora-blue-color-theme.json"
+      },
+      {
+        "label": "Nexora Green",
+        "uiTheme": "vs-dark",
+        "path": "./dist/nexora-green-color-theme.json"
+      },
+      {
+        "label": "Nexora Purple",
+        "uiTheme": "vs-dark",
+        "path": "./dist/nexora-purple-color-theme.json"
+      },
+      {
+        "label": "Nexora Orange",
+        "uiTheme": "vs-dark",
+        "path": "./dist/nexora-orange-color-theme.json"
       }
     ]
   }
