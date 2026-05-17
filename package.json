@@ -2,7 +2,7 @@
   "name": "nexora-theme",
   "displayName": "Nexora Theme",
   "description": "Modern multi-accent VS Code theme.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "publisher": "saarmyx",
   "license": "MIT",
   "engines": {
