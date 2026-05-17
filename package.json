@@ -2,9 +2,18 @@
   "name": "nexora-theme",
   "displayName": "Nexora Theme",
   "description": "Modern multi-accent VS Code theme.",
-  "version": "2.0.0",
-  "publisher": "saarmyx",
+  "version": "1.0.1",
+  "publisher": "Nexora",
   "license": "MIT",
+  "icon": "/images/IconTheme.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saarmyx/nexora-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saarmyx/nexora-theme/issues"
+  },
+  "homepage": "https://github.com/saarmyx/nexora-theme#readme",
   "engines": {
     "vscode": "^1.85.0"
   },
